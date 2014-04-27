@@ -11,14 +11,14 @@ The run_analysis.R script produces two datasets from the source data set above. 
 The following process was used to generate the first dataset:
 
 1. The following data were read into data tables: 
-..* features.txt
-..* activity_labels.txt
-..* test/X_test.txt
-..* test/y_test.txt
-..* test/subject_test.txt
-..* train/X_train.txt
-..* train/y_train.txt
-..* train/subject_train.txt
+  * features.txt
+  * activity_labels.txt
+  * test/X_test.txt
+  * test/y_test.txt
+  * test/subject_test.txt
+  * train/X_train.txt
+  * train/y_train.txt
+  * train/subject_train.txt
 2. The features data table was applied to the x_test and x_train data as column names
 3. The feature column names containing either of the strings: 'mean()' or 'std()' were identified
 4. A train data table was created by combining columns from the y_train, subject_train, and x_train data.  Note that only features from the x_train data for means or standard deviations were included.
